@@ -4,18 +4,19 @@
   margin: 0;
   padding: 0;
   box-sizing: border-box;
-  font-family: "Poppins", sans-serif;
+  font-family: "Poppins", sans-serif !important;
 }
 
 body {
-  background: #001f3f;
-  color: #d9d9d9;
+  background: #001f3f !important;
+  color: #d9d9d9 !important;
 }
 
 nav {
   display: flex;
   justify-content: space-between;
   align-items: center;
+  padding: 0.4rem;
 }
 .hero-container {
   p {
